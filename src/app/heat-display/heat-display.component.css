@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.heat-indicator {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.display-layer {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+}
+.arrow {
+  height: 110px;
+  z-index: -1;
+  width: 1px;
+  border: 1px solid #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+}
+.current {
+  z-index: 1;
+  height: 100px;
+}

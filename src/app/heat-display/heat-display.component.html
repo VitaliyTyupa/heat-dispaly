@@ -1,0 +1,6 @@
+<div class="heat-indicator">
+  <div class="display-layer"></div>
+  <div class="arrow min" [ngStyle]="getRotationStyles(nullPosition)"></div>
+  <div class="arrow max" [ngStyle]="getRotationStyles(-nullPosition)"></div>
+  <div class="arrow current" [ngStyle]="getRotationStyles(current)"></div>
+</div>
